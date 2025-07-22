@@ -30,3 +30,37 @@ new Splide('#hero-carousel', {
   pauseOnHover: true,    
   pauseOnFocus: true 
   }).mount();
+
+
+  
+
+
+  document.addEventListener('DOMContentLoaded', function () {
+    var main = new Splide('#main-slider', {
+      type: 'fade',
+      heightRatio: 0.5,
+      pagination: false,
+      arrows: false,
+      cover: true,
+    });
+
+    var thumbnails = new Splide('#thumbnail-slider', {
+      rewind: true,
+      perPage: 4,
+      fixedWidth: 104,
+      fixedHeight: 58,
+      isNavigation: true,
+      gap: 10,
+      pagination: false,
+      breakpoints: {
+        640: {
+          fixedWidth: 66,
+          fixedHeight: 38,
+        },
+      },
+    });
+
+    main.sync(thumbnails);
+    main.mount();
+    thumbnails.mount();
+  });
