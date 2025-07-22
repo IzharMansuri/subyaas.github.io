@@ -1172,3 +1172,106 @@ main.single-product nav .navWrapper{
     bottom: 20px;
     right: 20px;
 }
+
+
+main.about nav.navbar{
+    position: unset;
+}
+
+main.about nav .navWrapper {
+    border: 1px solid var(--navGold);
+}
+
+main.about .about-banner{
+    padding-top: 114px;
+    padding-bottom: 60px;
+}
+main.about .about-banner .container{
+    padding: 0 75px;
+}
+main.about .about-banner .col{
+    text-align: center;
+    margin-top: 10px;
+    padding: 0;
+}
+main.about .about-banner .center h2{
+font-family: var(--cormorantGarmond);
+font-size: 48px;
+font-weight: 400;
+max-width: 429px;
+text-align: center;
+margin: auto;
+margin-top: 25px;
+margin-bottom: 25px;
+}
+main.about .about-banner .center img{
+    width: 98%;
+}
+
+main.about .about-banner img{
+    width: 100%;
+}
+main.about .about-banner .col.right .img-sec:first-child{
+    margin-bottom: 32px;
+}
+main.about .about-banner .col.left .img-sec:first-child{
+    margin-bottom: 26px;
+}
+main.about .about-banner .col.left p{
+    font-family: var(--Poppins);
+    font-weight: 400;
+    font-size: 17px;
+    text-align: start;
+}
+
+main.about .cnt-section{
+    text-align: center;
+    margin: 0px 0 80px;
+    padding: 80px 0;
+    background-color: var(--navGold);
+}
+
+main.about .cnt-section .cnt-title{
+    font-family: var(--cormorantGarmond);
+    font-size: 48px;
+    font-weight: 700;
+    color: #fff;
+    margin-bottom: 50px;
+}
+
+main.about .cnt-section .cnt-text {
+    font-family: var(--montesrat);
+    font-weight:600;
+    color: #fff;
+    font-size: 16px;
+}
+
+main.about .content-section .content-row{
+    margin-bottom: 60px;
+}
+
+main.about .content-section .content-row .content-text{
+    font-family: var(--Poppins);
+    font-weight: 400;
+    font-size: 16px;
+}
+
+main.about .content-section .content-row .circle-image{
+    width: 350px;
+    height: 350px;
+    border-radius: 50%;
+    background-color: #d9d9d9;
+}
+
+main.about .content-section .content-row:nth-child(2) .circle-image{
+    margin-left: auto;
+}
+
+@media(max-width:1399px){
+    main.about .about-banner .col.left p{
+        font-size: 14px;
+    }
+    main.about .about-banner{
+        padding-top: 80px;
+    }
+}
