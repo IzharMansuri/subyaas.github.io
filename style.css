@@ -1632,4 +1632,10 @@ main.about .img-cnt img {
     .collection-label{
         font-size: 12px;
     }
+    .footer-section{
+        background: url('./assests/FooterTrialnavgold.png') var(--navGold);
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+    }
 }
